@@ -1,14 +1,37 @@
 <div class="row">
-  <div class="hero-unit span7" id="section-impurgent">
+  <div class="hero-unit span8" id="section-impurgent">
     <ul>
-      <li class="sticky-note" ng-repeat="task in impurgents">
-        <a href="#"><p>{{task}}</p></a>
+      <li class="sticky-note" ng-repeat="task in impediments.impurgent">
+      <a href="#"><p>{{task}}</p></a>
       </li>
     </ul>
   </div>
-  <div class="hero-unit span7" id="section-urgent"></div>
+  <div class="hero-unit span8" id="section-urgent">
+    <ul>
+      <li class="sticky-note" ng-repeat="task in impediments.urgent">
+      <a href="#"><p>{{task}}</p></a>
+      </li>
+    </ul>
+  </div>
 </div>
 <div class="row">
-  <div class="hero-unit span7" id="section-important"></div>
-  <div class="hero-unit span7" id="section-none"></div>
+  <div class="hero-unit span8" id="section-important">
+    <ul>
+      <li class="sticky-note" ng-repeat="task in impediments.important">
+      <a href="#"><p>{{task}}</p></a>
+      </li>
+    </ul>
+  </div>
+  <div class="hero-unit span8" id="section-none">
+    <ul>
+      <li class="sticky-note" ng-repeat="task in impediments.none">
+      <a href="#"><p>{{task}}</p></a>
+      </li>
+    </ul>
+  </div>
 </div>
+
+<div class="row">
+  <div class="alert alert-info">The tasks shown are statically defined. To change see app/scripts/controllers/main.js. To get rid of this message delete in app/views/main.html</div>
+</div>
+
