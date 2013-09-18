@@ -1,0 +1,36 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+@import "bootstrap-sass/lib/bootstrap";
+
+/* Put your CSS here */
+html, body {
+  margin: 20px;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 1200px;
+}
+
+.hero-unit {
+  margin: 10px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.hero-unit h1 {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+div#section-impurgent {
+  /* background: url("../images/icon-impurgent.png") no-repeat #eee; */
+}
