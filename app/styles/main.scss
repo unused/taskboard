@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1345px;
 }
 
 .hero-unit {
@@ -25,12 +25,18 @@ body {
   padding: 20px;
 }
 
-.hero-unit h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
+div#section-impurgent {
+  background: #eee url("../images/icon-impurgent.png") no-repeat right bottom;
 }
 
-div#section-impurgent {
-  /* background: url("../images/icon-impurgent.png") no-repeat #eee; */
+div#section-urgent {
+  background: #eee url("../images/icon-urgent.png") no-repeat left bottom;
+}
+
+div#section-important {
+  background: #eee url("../images/icon-important.png") no-repeat right top;
+}
+
+div#section-none {
+  background: #eee url("../images/icon-none.png") no-repeat left top;
 }
