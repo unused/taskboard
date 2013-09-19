@@ -1,0 +1,25 @@
+{
+  "impurgent": [
+    { "content": "something very important and urgent", "status": "open" },
+    { "content": "something also very important", "status": "open" },
+    { "content": "store tasks", "status": "open" },
+    { "content": "this has to be done very first", "status": "open" },
+    { "content": "we need more chicken", "status": "open" }
+  ],
+  "urgent": [
+    { "content": "something to do tomorrow", "status": "open" },
+    { "content": "set same height for all sections", "status": "open" },
+    { "content": "move tasks between sections", "status": "open" }
+  ],
+  "important": [
+    { "content": "we need a done action", "status": "open" },
+    { "content": "something real important", "status": "open" },
+    { "content": "do you need some callsigns!!!!!!", "status": "closed" },
+    { "content": "add add action", "status": "open" }
+  ],
+  "none": [
+    { "content": "something to do later", "status": "open" },
+    { "content": "UPPERCASE IMPLIES IT IS IMPORTANT", "status": "open" },
+    { "content": "add delete action", "status": "closed" }
+  ]
+}

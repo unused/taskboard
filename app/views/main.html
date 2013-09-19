@@ -2,14 +2,14 @@
   <div class="hero-unit span8" id="section-impurgent">
     <ul>
       <li class="sticky-note" ng-repeat="task in impediments.impurgent">
-      <a href="#"><p>{{task}}</p></a>
+      <a href="#"><p>{{task.content}}</p></a>
       </li>
     </ul>
   </div>
   <div class="hero-unit span8" id="section-urgent">
     <ul>
       <li class="sticky-note" ng-repeat="task in impediments.urgent">
-      <a href="#"><p>{{task}}</p></a>
+      <a href="#"><p>{{task.content}}</p></a>
       </li>
     </ul>
   </div>
@@ -17,15 +17,15 @@
 <div class="row">
   <div class="hero-unit span8" id="section-important">
     <ul>
-      <li class="sticky-note" ng-repeat="task in impediments.important">
-      <a href="#"><p>{{task}}</p></a>
+      <li class="sticky-note {{task.status}}" ng-repeat="task in impediments.important">
+        <a href="#"><p>{{task.content}}</p></a>
       </li>
     </ul>
   </div>
   <div class="hero-unit span8" id="section-none">
     <ul>
       <li class="sticky-note" ng-repeat="task in impediments.none">
-      <a href="#"><p>{{task}}</p></a>
+      <a href="#"><p>{{task.content}}</p></a>
       </li>
     </ul>
   </div>
